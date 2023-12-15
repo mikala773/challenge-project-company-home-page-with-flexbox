@@ -24,6 +24,15 @@ I chose to create a company of my own.
 
 https://mikala773.github.io/company-home-page-with-flexbox/
 
+## Status
+
+Completed for now until learn ways to enhance the design
+
+## Languages
+
+- **Html**
+- **CSS**
+
 ## Contact
 
 For any questions, issues, or suggestions, please contact:
