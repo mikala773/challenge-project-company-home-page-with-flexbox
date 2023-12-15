@@ -20,6 +20,10 @@ I chose to create a company of my own.
 
 - **Font Combination** : I put together font-families that go well together and complement the overall website and are appropriate for the company.
 
+## View Site
+
+https://mikala773.github.io/company-home-page-with-flexbox/
+
 ## Contact
 
 For any questions, issues, or suggestions, please contact:
