@@ -12,13 +12,13 @@ I chose to create a company of my own.
 
 ## Features
 
-- **Flexbox** : I used flex box to design difference sections of the website.
+- **Flexbox**: I used flex box to design difference sections of the website.
 
-- **Media Queries** : I chose to use media queries ensuring that the website looks great on all screen sizes.
+- **Media Queries**: I chose to use media queries ensuring that the website looks great on all screen sizes.
 
-- **Color Combination** : I used a color combination that I created to ensure a pleasant viewing experience.
+- **Color Combination**: I used a color combination that I created to ensure a pleasant viewing experience.
 
-- **Font Combination** : I put together font-families that go well together and complement the overall website and are appropriate for the company.
+- **Font Combination**: I put together font-families that go well together and complement the overall website and are appropriate for the company.
 
 ## View Site
 
@@ -26,8 +26,9 @@ https://mikala773.github.io/company-home-page-with-flexbox/
 
 ## Status
 
-Need to edit values for media queries. Checked on Iphone 13 Pro Max and design did not adjust to mobile viewed at 100%.
-Will continue to edit as I learn more ways to enhance the design
+- **Need to edit values for media queries**:
+  Checked on Iphone 13 Pro Max and design did not adjust to mobile viewed at 100%.
+- Will continue to edit as I learn more ways to enhance the design
 
 ## Languages
 
