@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="images/x-icon" href="bubblelogo.ico">
+    <!--need to add shorter version of google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alice&family=Bungee&family=Bungee+Shade&family=Eagle+Lake&family=Fira+Code:wght@300;400;500;600;700&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Galada&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Petrona:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Scope+One&family=Sevillana&family=Signika+Negative:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/reset.css">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <title>Creative Bubble Collective</title>
+</head>
+<!--BANNER-->
+<body>
+    <div id="banner">
+        <div class="content">
+            <h1>Creative Bubble Collective</h1>
+            <!--Not sure if I need to put the class here-->
+            <button class="button"><a>Login / Join Now</a></button>
+        </div>
+    </div>
+    <!--Nav-->
+    <nav>
+        <!--Desktop Nav-->
+        <div id="desktop">
+            <a id="logo" href="#">Creative Bubble Collective</a>
+            <ul>
+                <li><a href="#resources-section">Resources</a></li>
+                <li><a href="#employee-section">Our Team</a></li> <!--Original Vision was merch-->
+                <li><a href="https://www.instagram.com" target="_blank">Follow us
+                    <img id="icon" src="./resources/images/instagram.png" alt="Instagram logo.">
+                    </a></li>
+                <!--Desktop Button: only will show on tablets-->
+                <li><button class="button"><a>Login</a></button></li>
+            </ul>
+        </div>
+        <!--Mobile Nav-->
+        <div id="mobile">
+            <ul>
+                <li><a href="#top"><img src="./resources/images/ic-logo.svg" alt="Home logo"/></a></li>
+                <li><a href="#resources-section"><img src="./resources/images/ic-product-detail.svg" alt="Resources logo"/></a>
+                <li><a href="#employee-section"><img src="./resources/images/ic-about-us.svg" alt="Team Logo"/></a></li>
+                <li><button class="button"><a>Login</a></button></li>
+            </ul>
+        </div>
+    </nav>
+    <!--COMPANY DESCRIPTION-->
+    <section id="company-description" class="orange-background">
+
+        <span class="mobile-banner">
+            Creative Bubble Collective
+        </span>
+        <span class="content">
+            Where artists <span class="bold">connect, collaborate, and share knowledge</span> in an imaginative
+            atmosphere.
+        </span>
+
+    </section>
+    <!--RESOURCES-->
+    <section id="resources-section" class="section dark-background">
+        <h2 class="section-start">Resources</h2>
+        <ul>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/dance-studio.jpg" alt="Dance studio."/>
+                </div>
+                <div class="content">
+                    <h3 class="resource-name">Dance Studio</h3>
+                    <span class="resource-description">Members have exclusive access to our versatile dance studio for
+                        collaborative endeavors, teaching, learning, or solo rehearsals.</span>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/paintingequipment.jpg" alt="Art tools."/>
+                </div>
+                <div class="content">
+                    <h3 class="resource-name">Art Studio</h3>
+                    <span class="resource-description">Discover our diverse range of high-quality art supplies,
+                        including
+                        paints, brushes, easels, sculpting tools, and more, catering to various artistic needs.</span>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/photographyspace.jpg" alt="Photography Studio."/>
+                </div>
+                <div class="content">
+                    <h3 class="resource-name">Photography Studio</h3>
+                    <span class="resource-description">We've gathered a top-tier inventory of photography gear, catering
+                        to
+                        diverse needs, ready for rental by our members. You can rent the space, and there will be
+                        classes
+                        available.</span>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/workspaces.jpg" alt="Conference room."/></div>
+                <div class="content">
+                    <h3 class="resource-name">Workspaces</h3>
+                    <span class="resource-description">We offer a variety of workspaces, ensuring that every artist
+                        finds
+                        the perfect setting for their artistic journey. We have everything from relaxed communal spaces,
+                        to
+                        solo areas.</span>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/recording-studio.jpg" alt="Microphone." />
+                </div>
+                <div class="content">
+                    <h3 class="resource-name">Recording Studio</h3>
+                    <span class="resource-description">As part of our art collective, you have the exclusive opportunity
+                        to
+                        access our state-of-the-art DJ studio for collaborative sessions or solo practice.</span>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/dj-equipment.jpg" alt="Woman Djing" />
+                </div>
+                <div class="content">
+                    <h3 class="resource-name">DJ Equipment</h3>
+                    <span class="resource-description">As part of our art collective, you have the exclusive opportunity
+                        to
+                        access our state-of-the-art DJ studio for collaborative sessions or solo practice.</span>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--COMPANY TESTIMONIAL SECTION-->
+    <section id="company-testimonial" class="orange-background">
+        <span class="italic content">"The supportive community and diverse opportunities have elevated my work and
+            connected
+            me with like-minded creatives in ways I never thought possible."</span>
+        <br>-Caleb Peters
+        <br class="small">Member since 2011
+    </section>
+    <!--EMPLOYEE SECTION-->
+    <section id="employee-section" class="section dark-background">
+        <h2 class="section-start">Employees</h2>
+        <ul>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/mikalamichelle.jpg" alt="CEO Mikala Michelle."/>
+                </div>
+                <div class="content">
+                    <h3 class="position">CEO/Founder</h3>
+                    <span class="employee">Mikala Michelle</span>
+                    <span class="employee-description">Mikala established this collective as a haven where artists
+                        gather to create, collaborate, and inspire one another. She is dedicated to fostering creativity
+                        and offering a platform where every artist's unique voice is celebrated.</span>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/chanelivonne.jpg" alt="Membership Coordinator Channel Ivonne."/>
+                </div>
+                <div class="content">
+                    <h3 class="position">Membership Coordinator</h3>
+                    <span class="employee">Chanel Ivonne</span>
+                    <span class="employee-description">Manages member onboarding, renewals, and retention efforts. She
+                        handles inquiries, provide support, and maintain member records.</span>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/minnielee.jpg" alt="Marketing and Promotion Minnie Lee." />
+                </div>
+                <div class="content">
+                    <h3 class="position">Marketing and Promotion</h3>
+                    <span class="employee">Minnie Lee</span>
+                    <span class="employee-description">In charge of promoting the collective, its events, and member
+                        accomplishments. Minnie utilizes various marketing channels, social media, and email campaigns
+                        to engage a wider audience.</span>
+                </div>
+            </li>
+            <li class="card">
+                <div class="image-container"><img src="./resources/images/sebastianwave.jpg" alt="Artitic Development Sebastian Wave."/>
+                </div>
+                <div class="content">
+                    <h3 class="position">Artistic Development</h3>
+                    <span class="employee">Sebastian Wave</span>
+                    <span class="employee-description">Focuses on fostering the growth and development of artists within
+                        the collective. He organize skill-sharing sessions, workshops, and mentorship programs.</span>
+                </div>
+            </li>
+        </ul>
+    </section>
+</body>
+<!--Footer-->
+<footer class="orange-background">
+    <span>© 2023 Creative Bubble Collective, All Rights Reserved</span>
+    <span>Founded in Chicago</span>
+</footer>
+
+</html>
