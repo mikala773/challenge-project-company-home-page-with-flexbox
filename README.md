@@ -26,7 +26,8 @@ https://mikala773.github.io/company-home-page-with-flexbox/
 
 ## Status
 
-Completed for now until learn ways to enhance the design
+Need to edit values for media queries. Checked on Iphone 13 Pro Max and design did not adjust to mobile viewed at 100%.
+Will continue to edit as I learn more ways to enhance the design
 
 ## Languages
 
