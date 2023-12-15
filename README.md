@@ -22,7 +22,7 @@ I chose to create a company of my own.
 
 ## View Site
 
-https://mikala773.github.io/company-home-page-with-flexbox/
+https://mikala773.github.io/challenge-project-company-home-page-with-flexbox/
 
 ## Status
 
